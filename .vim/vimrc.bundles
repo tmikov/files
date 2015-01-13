@@ -8,6 +8,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 
 Plugin 'leafgarland/typescript-vim'
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
 
 "Plugin 'Valloric/YouCompleteMe'
 "let g:ycm_filetype_specific_completion_to_disable = {
