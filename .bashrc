@@ -28,6 +28,7 @@ shopt -s checkwinsize
 alias ll='ls -l'
 alias la='ls -A'
 alias ls='ls -F'
+alias less='less -N'
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "$debian_chroot" -a -r /etc/debian_chroot ]; then
