@@ -1,12 +1,13 @@
-set editing-mode vi
-set keymap vi-command
-
-$if mode=vi
+$if Bash
+    set editing-mode vi
     set keymap vi-command
-    "\e[A": history-search-backward
-    "\e[B": history-search-forward
-    set keymap vi-insert
-    "\e[A": history-search-backward
-    "\e[B": history-search-forward
-$endif
 
+    $if mode=vi
+        set keymap vi-command
+        "\e[A": history-search-backward
+        "\e[B": history-search-forward
+        set keymap vi-insert
+        "\e[A": history-search-backward
+        "\e[B": history-search-forward
+    $endif
+$endif
