@@ -1,11 +1,12 @@
 [user]
 	name = Tzvetan Mikov
-	email = tmikov@bloomberg.net
+	email = tmikov@gmail.com
 [merge]
 	tool = kdiff3
 	conflictstyle = diff3
 [alias]
-  lg = log --format=oneline --abbrev-commit --all --graph --decorate=short
+  lg = log --format=oneline --abbrev-commit --graph --decorate=short
 
 [core]
 	autocrlf = input
+	editor = vim
