@@ -1,6 +1,6 @@
 [user]
 	name = Tzvetan Mikov
-	email = tmikov@gmail.com
+	email = tmikov@fb.com
 [merge]
 	tool = kdiff3
 	conflictstyle = diff3
